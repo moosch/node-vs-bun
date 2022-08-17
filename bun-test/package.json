@@ -1,0 +1,10 @@
+{
+  "name": "bun-app",
+  "version": "1.0.0",
+  "description": "Bun.js on Docker",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
