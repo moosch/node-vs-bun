@@ -9,5 +9,20 @@ docker build . -t node-test/bun-app --platform linux/arm64/v8
 Run:
 
 ```shell
-docker run -p 3000:3000 -d node-test/bun-app
+docker run -p 3000:3000 -m 256m --cpus=1 -d node-test/bun-app
 ```
+
+## Testing
+
+```shell
+npx artillery run test.yml
+```
+
+### Results
+
+**Unrestricted**
+
+
+
+**Restricted**
+

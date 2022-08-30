@@ -1,0 +1,12 @@
+config:
+  target: "https://localhost:4000"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+      name: Warm up
+
+scenarios:
+  - name: "Test Node"
+    flow:
+      - get:
+          url: "/"

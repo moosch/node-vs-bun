@@ -6,5 +6,8 @@
   "type": "module",
   "dependencies": {
     "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "artillery": "^2.0.0-23"
   }
 }
